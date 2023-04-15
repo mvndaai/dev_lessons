@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head lang="en">
+	<title>JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta charset="utf-8" />
+	<script src="./index.js"></script>
+</head>
+
+<body>
+	<div>
+		<input id="alert_text" placeholder="Alert text" />
+		<button id="alert_button">Alert</button>
+		<script>
+			const alertButton = document.querySelector('#alert_button');
+			alertButton.onclick = (e) => {
+				const text = document.querySelector('#alert_text').value || 'Nothing to alert';
+				console.log("Going to alert", text)
+				alert(text);
+			}
+		</script>
+	</div>
+
+	<div>
+		<button id="count_button" onclick="updateCount()">Counter</button>
+		Count <input id="count_input" value="0" disabled />
+	</div>
+
+</body>
+
+</html>
