@@ -9,7 +9,7 @@
 
 <body>
 	<h1>Form</h1>
-	<form id="form" action="./submit.html">
+	<form action="./submit.html">
 		<!-- Note 'name' will be in the parameters when submitted -->
 		<div>
 			<label>Name:
@@ -22,17 +22,6 @@
 			</label>
 			<input type="number" name="number" id="number" min="1" max="10" value="5" />
 		</div>
-		<div>
-			<label for="select">
-				Select a Nato phonetic Letter:
-			</label>
-			<select id="select" name="select">
-				<option value="None" selected disabled>Select a letter</option>
-				<option value="A">Alpha</option>
-				<option value="B">Bravo</option>
-				<option value="C">Charlie</option>
-			</select>
-		</div>
 		<div class="c-group">
 			Pet growing up:
 			<label><input name="checkbox" type="checkbox" value="dog">Dog</label>
@@ -43,6 +32,17 @@
 			Summer is the best season:
 			<label><input id="radio_true" type="radio" value="true" name="radio" checked /> True</label>
 			<label><input id="radio_false" type="radio" value="false" name="radio" /> False</label>
+		</div>
+		<div>
+			<label for="select">
+				Select a Nato phonetic Letter:
+			</label>
+			<select id="select" name="select">
+				<option value="None" selected disabled>Select a letter</option>
+				<option value="A">Alpha</option>
+				<option value="B">Bravo</option>
+				<option value="C">Charlie</option>
+			</select>
 		</div>
 		<input type="submit" />
 	</form>
