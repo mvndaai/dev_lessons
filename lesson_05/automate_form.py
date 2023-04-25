@@ -13,6 +13,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
 driver.get("http://localhost:5500/lesson_03/form.html")
 print('Title:', driver.title)
+assert(driver.title == 'Form')
 time.sleep(3) # wait before changing anything
 
 driver.find_element(By.ID, 'text').send_keys('Test Name')
