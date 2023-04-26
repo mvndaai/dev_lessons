@@ -6,6 +6,6 @@ Lessons
 * [Edit your page using git](./lesson_02/)
 * [Create a Simple HTML form](./lesson_03/)
 * [Make things pretty with CSS](./lesson_04/)
-* [Python automation of a form](./lesson_05/)
-* [Create a simple HTML page with a JavaScript button action](./lesson_06/)
+* [Create a simple HTML page with a JavaScript button action](./lesson_05/)
+* [Python automation of a form](./lesson_06/)
 <!--* Form in svelt-->
