@@ -17,20 +17,19 @@ assert(driver.title == 'Form')
 time.sleep(3) # wait before changing anything
 
 driver.find_element(By.ID, 'text').send_keys('Test Name')
-el_num = driver.find_element(By.XPATH, '//input[@name="number"]')
 
+el_num = driver.find_element(By.XPATH, '//input[@name="number"]')
 el_num.clear()
 el_num.send_keys('7')
+
+driver.find_element(By.CSS_SELECTOR, '#radio_false').click()
 
 select = Select(driver.find_element(By.ID, 'select'))
 print('original selected value:', select._el.get_attribute('value'))
 select.select_by_value('C')
 time.sleep(1) # wait before changing another
 select.select_by_visible_text('Alpha')
+time.sleep(1)
 
-driver.find_element(By.CSS_SELECTOR, '#radio_false').click()
-
-time.sleep(1) # wait befor changing page
 driver.find_element(By.ID, 'form').submit()
-
 time.sleep(10) # wait before closing
