@@ -42,7 +42,7 @@ Click `Go Live` in vscode to load the website and see what it looks like.
 
 ## Inline style
 
-Styling usually goes in the `head` of your html files. Add this to start styling your page.
+Styling usually goes in the `head` of your html files. Add this to start styling your page inside a `<style>` element
 
 ```html
 <style>
