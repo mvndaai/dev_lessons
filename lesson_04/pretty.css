@@ -16,6 +16,14 @@
     color: white;
 }
 
+.border {
+    border: 4px solid green;
+    padding: 10px;
+}
+.border:hover {
+    border-color: purple;
+}
+
 .box {
     border-radius: 10px; /* Round edges */
     margin: 2px;
@@ -24,14 +32,6 @@
 
     cursor: pointer;
     user-select: none;
-}
-
-.border {
-    border: 4px solid green;
-    padding: 10px;
-}
-.border:hover {
-    border-color: purple;
 }
 
 #catch {
