@@ -102,5 +102,7 @@ time.sleep(10) # wait before closing
 Try out your new python script!
 
 ## Notes
+* In Chrome you can find xpath and css selectors by right clicking on something on the page then clicking `Inspect`. In the `Elements` tab of the dev tools that pops up right click again then click `Copy >` If you want xpath click `Copy XPath` and if you want a css selector click `Copy selector`.
+    * In the `Elements` tab you can click `ctrl`+`f` to open find and paste the selector. That should highlight the element in your html.
 
 * Javascript does functions using `{}` but [python just uses spacing](https://www.w3schools.com/python/python_functions.asp).
