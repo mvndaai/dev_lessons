@@ -22,7 +22,7 @@ Note: We call it `index` because when you do not include a filename and just inc
 </html>
 ```
 
-I like to think of HTML as blocks that you stack on top of each other. They all start with `<type>` an end with `<type/>` where `type` is the specific type of element. This say there is an `html` element that holds a `head` and `body`. `DOCTYPE` is a special tag that is required.
+I like to think of HTML as blocks that you stack on top of each other. They all start with `<type>` and end with `<type/>` where `type` is the specific type of element. This say there is an `html` element that holds a `head` and `body`. `DOCTYPE` is a special tag that is required.
 
 ### Head
 `head` doesen't change the look of the webpage itself, but it holds all the information needed to load the page and change other things in the browser. We are adding a `title` which will change what the browser tab is named
