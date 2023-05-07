@@ -185,3 +185,8 @@ You can animate css by using [`transition`](https://developer.mozilla.org/en-US/
 The `#` matches `id` like `.` matches class. So this will only change the element with an `id=catch` in the html.
 
 `position:relative` and `top:0` say to make the element relative to the parent with the top of the parent. Our `hover` here will move the element up 10 pixels.
+
+
+## Note
+
+* Checkout this cool minecraft css https://codepen.io/fariati/pen/oNpZRbd
