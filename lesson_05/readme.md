@@ -5,7 +5,7 @@ The way to make anything happen other than just css movement or a form submit is
 ## Steps
 
 ### HTML page
-Start with a not html page
+Start with a new html page
 ```html
 <!DOCTYPE html>
 <html lang="en">
